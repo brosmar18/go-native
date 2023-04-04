@@ -27,7 +27,7 @@ function Card(imageSrc, title, description) {
 }
 
 
-// Use the constructor function to create a new card object.
+// Array of objects that will store the data for each card created.
 
 let cardData = [{
     imageSrc: "images/cedar-rapids-ia.png",
