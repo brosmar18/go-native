@@ -63,3 +63,12 @@ function createCards(){
 
 // Call the 'createCards()' function.
 window.addEventListener("load", createCards);
+
+// event listener for the log-in button to remove the "hidden" attribute from the log-in-form section
+
+let loginButton = document.querySelector(".login__button");
+let logInForm = document.querySelector(".log-in-form");
+
+loginButton.addEventListener("click", function(){
+    logInForm.removeAttribute("hidden");
+});
