@@ -72,3 +72,11 @@ let logInForm = document.querySelector(".log-in-form");
 loginButton.addEventListener("click", function(){
     logInForm.removeAttribute("hidden");
 });
+
+// Click event listener to the log-in form to hide it when clicking outside the form.
+
+document.addEventListener("click", function (event) {
+    if (!logInForm.contains(event.target) && !loginButton.contains(event.target)) {
+        logInForm.setAttribute("hidden", true);
+    }
+});
