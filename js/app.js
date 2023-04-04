@@ -50,3 +50,13 @@ let cardData = [{
         description: "New York City, also known as the Big Apple, is a bustling metropolis filled with iconic landmarks, cultural institutions, and diverse neighborhoods.From the bright lights of Times Square to the stunning views from the top of the Empire State Building, there's never a dull moment in the city that never sleeps. With world - class museums, Broadway shows, and endless dining options, New York City is a must- visit destination for any traveler."
     }
 ];
+
+// Function that will loop through the 'cardData' array and create new instances of the 'Card' constructor for each object in the array.
+
+function createCards(){
+    let featuredGrid = document.querySelector(".featured__grid");
+    cardData.forEach(function(cardDataItem){
+        let card = new Card(cardDataItem.imageSrc, cardDataItem.title, cardDataItem.description);
+        featuredGrid.appendChild(card.createCard());
+    });
+}
