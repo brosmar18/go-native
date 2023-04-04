@@ -1,4 +1,4 @@
-.log-in-form {
+.log-in-form, .sign-up-form {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -90,6 +90,10 @@
     text-decoration: none;
 }
 
-.form__signup-link {
+.form__signup-link:hover {
     text-decoration: underline;
+}
+
+.form__signup-link:active {
+    opacity: 0.7;
 }

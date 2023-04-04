@@ -51,30 +51,15 @@ let cardData = [{
     }
 ];
 
-// Function that will loop through the 'cardData' array and create new instances of the 'Card' constructor for each object in the array.
-
-function createCards(){
-    let featuredGrid = document.querySelector(".featured__grid");
-    cardData.forEach(function(cardDataItem){
-        let card = new Card(cardDataItem.imageSrc, cardDataItem.title, cardDataItem.description);
-        featuredGrid.appendChild(card.createCard());
-    });
-}
-
-// Call the 'createCards()' function.
-window.addEventListener("load", createCards);
-
-// event listener for the log-in button to remove the "hidden" attribute from the log-in-form section
-
 let loginButton = document.querySelector(".login__button");
 let logInForm = document.querySelector(".log-in-form");
 
-loginButton.addEventListener("click", function(){
+// event listener for the log-in button to remove the "hidden" attribute from the log-in-form section
+loginButton.addEventListener("click", function () {
     logInForm.removeAttribute("hidden");
 });
 
 // Click event listener to the log-in form to hide it when clicking outside the form.
-
 document.addEventListener("click", function (event) {
     if (!logInForm.contains(event.target) && !loginButton.contains(event.target)) {
         logInForm.setAttribute("hidden", true);
