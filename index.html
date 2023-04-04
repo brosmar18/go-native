@@ -33,6 +33,24 @@
         </header>
 
         <main class="main">
+            <section class="sign-up-form">
+                <form class="form">
+                    <h2 class="form__title">Sign Up</h2>
+                    <fieldset class="form__fieldset">
+                        <label class="form__label" for="username-signup">Username</label>
+                        <input class="form__input" id="username-signup" type="text" required>
+                        <label class="form__label" for="email">Email</label>
+                        <input class="form__input" id="email" type="email" required>
+                        <label class="form__label" for="password-signup">Password</label>
+                        <input class="form__input" id="password-signup" type="password" required>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <button class="form__button" type="submit">Sign Up</button>
+                    </fieldset>
+                    <p class="form__login">Already have an account? <a class="form__login-link" href="#">Log In</a></p>
+                </form>
+            </section>
+
             <section class="log-in-form" hidden>
                 <form class="form">
                     <h2 class="form__title">Log In</h2>
