@@ -1,6 +1,8 @@
 .log-in-form {
     background-color: rgba(253, 234, 213, 255);
     padding: 30px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .form {
