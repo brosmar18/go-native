@@ -51,6 +51,18 @@ let cardData = [{
     }
 ];
 
+function createCards() {
+    const cardContainer = document.querySelector('.featured__grid');
+    cardContainer.innerHTML = '';
+    cardData.forEach(function (data) {
+        const card = new Card(data.imageSrc, data.title, data.description).createCard();
+        cardContainer.appendChild(card);
+    });
+}
+
+createCards();
+
+
 let loginButton = document.querySelector(".login__button");
 let logInForm = document.querySelector(".log-in-form");
 
