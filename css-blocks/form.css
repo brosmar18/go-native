@@ -78,22 +78,22 @@
     box-shadow: none;
 }
 
-.form__signup {
+.form__signup, .form__login {
     color: #1a2b39;
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
 }
 
-.form__signup-link {
+.form__signup-link, .form__login-link {
     color: #58aaab;
     text-decoration: none;
 }
 
-.form__signup-link:hover {
+.form__signup-link:hover, .form__login-link:hover {
     text-decoration: underline;
 }
 
-.form__signup-link:active {
+.form__signup-link:active, .form__login-link:active {
     opacity: 0.7;
 }
