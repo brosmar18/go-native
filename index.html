@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <div class="page">
         <header class="header">
-            <div class="header__logo">
-                <img src="#" alt="Your Business Name">
-            </div>
             <nav class="nav">
                 <ul class="nav__links">
                     <li><a class="nav__link" href="#">Home</a></li>
@@ -21,31 +20,98 @@
                     <li><a class="nav__link" href="#">About Us</a></li>
                     <li><a class="nav__link" href="#">Contact</a></li>
                 </ul>
+                <a href="#" class="login__button">Log In</a>
+
             </nav>
+            <div class="header__content">
+                <div class="header__text">
+                    <h1 class="header__title">Go Native</h1>
+                    <img class="header__logo" src="images/logo.png" alt="Go Native Logo">
+                    <p class="header__subtitle">Where travelers become locals</p>
+                </div>
+            </div>
         </header>
 
-        <main class="main-content">
-            <section class="hero">
-                <h1 class="hero__title">Discover Local Gems</h1>
-                <p class="hero__subtitle">Explore the best activities, restaurants, and events recommended by locals</p>
-                <a href="#" class="hero__cta">Get Started</a>
-            </section>
-
+        <main class="main">
             <section class="featured">
                 <h2 class="featured__title">Featured Destinations</h2>
                 <div class="featured__grid">
-                    <div class="destination-card">
-                        <img src="destination-1.jpg" alt="Destination 1" class="destination-card__image">
-                        <h3 class="destination-card__title">Destination 1</h3>
-                        <p class="destination-card__description">Brief description of the destination</p>
+                    <div class="card">
+                        <img src="images/cedar-rapids-ia.png" alt="Cedar Rapids, Iowa" class="card__image">
+                        <h3 class="card__title">Cedar Rapids, Iowa</h3>
+                        <p class="card__description">Cedar Rapids, Iowa is a Midwestern city with a rich cultural
+                            heritage and beautiful natural scenery. It offers
+                            attractions such as the Cedar Rapids Museum of Art, the Brucemore Mansion, and the NewBo
+                            City Market, which is a unique
+                            shopping and dining experience. Cedar Rapids is also a hub for business and innovation, with
+                            major corporations and a
+                            strong economy.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/chicago-il.png" alt="Chicago, Illinois" class="card__image">
+                        <h3 class="card__title">Chicago, Illinois</h3>
+                        <p class="card__description">Chicago, IL is a vibrant city located on the shores of Lake
+                            Michigan. Known for its impressive skyline, world-class
+                            museums, and delicious food scene, there's no shortage of things to see and do in the Windy
+                            City. Whether you're
+                            interested in architecture, art, or history, Chicago has something to offer every type of
+                            traveler.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/st-louis-mo.png" alt="St. Louis, Missouri" class="card__image">
+                        <h3 class="card__title">St. Louis, Missouri</h3>
+                        <p class="card__description">St. Louis, MO is a historic city on the Mississippi River with a
+                            diverse culture and rich history. Known for its iconic
+                            Gateway Arch, world-renowned museums, and vibrant music scene, St. Louis has something for
+                            everyone. Whether you're
+                            interested in exploring the outdoors, trying delicious local cuisine, or experiencing the
+                            city's unique attractions, St.
+                            Louis is a must-visit destination for any traveler.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/new-york-city.png" alt="New York City, New York" class="card__image">
+                        <h3 class="card__title">New York City, New York</h3>
+                        <p class="card__description">New York City, also known as the Big Apple, is a bustling
+                            metropolis filled with iconic landmarks, cultural
+                            institutions, and diverse neighborhoods. From the bright lights of Times Square to the
+                            stunning views from the top of
+                            the Empire State Building, there's never a dull moment in the city that never sleeps. With
+                            world-class museums, Broadway
+                            shows, and endless dining options, New York City is a must-visit destination for any
+                            traveler.</p>
                     </div>
                 </div>
+
             </section>
         </main>
 
         <footer class="footer">
+            <div class="footer__info">
+                <div class="footer__address">
+                    <h4 class="footer__title">Address</h4>
+                    <p>123 Main Street</p>
+                    <p>City, State 12345</p>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__title">Contact Us</h4>
+                    <p>Email: info@yourbusiness.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer__social">
+                    <h4 class="footer__title">Follow Us</h4>
+                    <ul class="footer__social-links">
+                        <li><a href="#" class="footer__social-link">Facebook</a></li>
+                        <li><a href="#" class="footer__social-link">Twitter</a></li>
+                        <li><a href="#" class="footer__social-link">Instagram</a></li>
+                        <li><a href="#" class="footer__social-link">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
             <p class="footer__copyright">&copy; 2023 Your Business Name. All rights reserved.</p>
         </footer>
+
     </div>
+    <script src="js/app.js"></script>
 </body>
+
 </html>

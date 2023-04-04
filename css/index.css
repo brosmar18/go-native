@@ -1,4 +1,7 @@
-.page {
-    max-width: 1440px;
-    margin: 0 auto;
-}
+@import url(../css-blocks/page.css);
+@import url(../css-blocks/header.css);
+@import url(../css-blocks/nav.css);
+@import url(../css-blocks/main.css);
+@import url(../css-blocks/featured.css);
+@import url(../css-blocks/card.css);
+@import url(../css-blocks/footer.css);
