@@ -60,3 +60,6 @@ function createCards(){
         featuredGrid.appendChild(card.createCard());
     });
 }
+
+// Call the 'createCards()' function.
+window.addEventListener("load", createCards);
