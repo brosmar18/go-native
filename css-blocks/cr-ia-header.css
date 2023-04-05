@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/cedar-rapids/cr-ia-downtown-river.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(to top, rgba(226, 141, 80, 0.9), rgba(226, 141, 80, 0.9));
+}
+
+.header__title {
+    font-size: 60px;
+    line-height: 65px;
+    margin: 0;
+    color: #301a0e;
+}
+
+.header__logo {
+    height: 130px;
+    width: 130px;
+}
+
+.header__subtitle {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0 20px 0;
+    color: #705d44;
+}
