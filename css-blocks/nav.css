@@ -43,6 +43,17 @@
     top: 1px;
 }
 
+.nav__logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.nav__logo-img {
+    height: 70px;
+    width: 70px;
+}
+
 .login__button {
     background-color: #1a2b39;
     color: #fdead5;
