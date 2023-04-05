@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Native</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/chicago-il.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a class="nav__link" href="../index.html">Home</a></li>
+                    <li><a class="nav__link" href="explore.html">Explore</a></li>
+                    <li><a class="nav__link" href="#">About Us</a></li>
+                    <li><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="login__button">Log In</a>
+
+            </nav>
+            <div class="header__content">
+                <div class="header__text">
+                    <h1 class="header__title">Chicago, Illinois</h1>
+                    <img class="header__logo" src="../images/logo.png" alt="Go Native Logo">
+                    <p class="header__subtitle">Where travelers become locals</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="sign-up-form" hidden>
+                <form class="form">
+                    <h2 class="form__title">Sign Up</h2>
+                    <fieldset class="form__fieldset">
+                        <label class="form__label" for="username-signup">Username</label>
+                        <input class="form__input" id="username-signup" type="text" required>
+                        <label class="form__label" for="email">Email</label>
+                        <input class="form__input" id="email" type="email" required>
+                        <label class="form__label" for="password-signup">Password</label>
+                        <input class="form__input" id="password-signup" type="password" required>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <button class="form__button" type="submit">Sign Up</button>
+                    </fieldset>
+                    <p class="form__login">Already have an account? <a class="form__login-link" href="#">Log In</a></p>
+                </form>
+            </section>
+
+            <section class="log-in-form" hidden>
+                <form class="form">
+                    <h2 class="form__title">Log In</h2>
+                    <fieldset class="form__fieldset">
+                        <label class="form__label" for="username">Username</label>
+                        <input class="form__input" id="username" type="text" required>
+                        <label class="form__label" for="password-login">Password</label>
+                        <input class="form__input" id="password-login" type="text" required>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <button class="form__button" type="submit">Log In</button>
+                    </fieldset>
+                    <p class="form__signup">Don't have an account? <a class="form__signup-link" href="#">Sign Up</a></p>
+                </form>
+            </section>
+            <section class="featured">
+                <h2 class="featured__title">Featured Destinations</h2>
+                <div class="featured__grid">
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__info">
+                <div class="footer__address">
+                    <h4 class="footer__title">Address</h4>
+                    <p>123 Main Street</p>
+                    <p>City, State 12345</p>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__title">Contact Us</h4>
+                    <p>Email: info@yourbusiness.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer__social">
+                    <h4 class="footer__title">Follow Us</h4>
+                    <ul class="footer__social-links">
+                        <li><a href="#" class="footer__social-link">Facebook</a></li>
+                        <li><a href="#" class="footer__social-link">Twitter</a></li>
+                        <li><a href="#" class="footer__social-link">Instagram</a></li>
+                        <li><a href="#" class="footer__social-link">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; 2023 Your Business Name. All rights reserved.</p>
+        </footer>
+
+    </div>
+    <script type="module" src="../js/chicago-il.js"></script>
+
+</body>
+
+</html>
